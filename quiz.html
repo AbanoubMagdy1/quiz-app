@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p>Score : <span class="score"></span> / <span class="totalS"></span></p>
+            <p>Question : <span class="current"></span> / <span class="total"></span></p>
+        </div>
+        <div class="q">
+            <h3>What is your answer?</h3>
+            <div class="answer">
+                <p class="prefix">A</p>
+                <p class="answer-body">Good</p>
+            </div>
+            <div class="answer">
+                <p class="prefix">B</p>
+                <p class="answer-body">Great</p>
+            </div>
+            <div class="answer">
+                <p class="prefix">C</p>
+                <p class="answer-body">bad</p>
+            </div>
+            <div class="answer">
+                <p class="prefix">D</p>
+                <p class="answer-body">awful</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <ol>
+            
+        </ol>
+    </div>
+    <script src="questions.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

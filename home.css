@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    background-color: #d7dff6;
+    font-size: 32px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h1{
+    text-transform: uppercase;
+    color : #131f8a;
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0.5rem;
+    border : 1px solid #4096e6;
+    border-radius: 3px;
+    line-height: 2px;
+    text-align: center;
+    color : rgb(25, 32, 42);
+    transition : 0.3s all
+}
+a:hover{
+    transform: translateY(-1px);
+    box-shadow: 1px 4px 15px 0 #131f8a;
+}
